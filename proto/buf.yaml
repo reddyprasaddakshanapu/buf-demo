@@ -1,9 +1,10 @@
 version: v1
+name: fico-platform.buf.dev/reddiprasad/buf-demo-fico
+deps:
+    - fico-platform.buf.dev/googleapis/googleapis
 breaking:
   use:
     - FILE
 lint:
   use:
     - DEFAULT
-  ignore:
-    - google/type/datetime.proto
